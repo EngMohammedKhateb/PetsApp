@@ -17,8 +17,8 @@ class DrawerWidget extends StatelessWidget {
               height: 48,
             ),
             Image.asset(!ThemeService().isDarkModeActive()
-                ? 'assets/images/banerdark.png'
-                : 'assets/images/betaacademybaner.png'),
+                ? 'assets/images/logo.png'
+                : 'assets/images/logo.png'),
             const SizedBox(height: 20),
             ListTile(
                 onTap: () {
